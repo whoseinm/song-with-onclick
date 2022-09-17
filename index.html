@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="buttons">
+            <div class="button" id="evez_elemir">
+                <input type="button" value="Faiq Ağayev - Əvəz Eləmir" onclick="play_evez_elemir()">
+                <audio autoplay id="audio_evez_elemir" src="music/evez_elemir.mp3"></audio>
+            </div>
+            <div class="button" id="Sovetski">
+                <input type="button" value="Eyyub Yaqubov - Sovetski" onclick="play_sovetski()">
+                <audio autoplay id="audio_sovetski" src="music/Sovetski.mp3"></audio>
+            </div>
+            <div class="button">
+                <input type="button" value="Flora Kərimova - Tapar məni" onclick="play_tapar_meni()">
+                <audio autoplay id="audio_tapar_meni" src="music/tapar meni.mp3"></audio>
+            </div>
+            <div class="button">
+                <input type="button" value="Stop" onclick="stop_it()">
+                <audio autoplay id="stop_it" src="music/stop_it.mp3"></audio>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+<script src="js/index.js"></script>
